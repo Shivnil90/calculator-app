@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="calculator">
+
+        <h1>Calculator</h1>
+
+        <p class="subtitle">
+            Basic Arithmetic Calculator
+        </p>
+
+
+        <!-- Result Display -->
+        <div class="display">
+
+            <span>Result</span>
+
+            <strong id="result">0</strong>
+
+        </div>
+
+
+        <!-- Number 1 -->
+        <div class="input-group">
+
+            <label for="number1">
+                Number 1
+            </label>
+
+            <input
+                type="number"
+                id="number1"
+                placeholder="Enter first number"
+            >
+
+        </div>
+
+
+        <!-- Number 2 -->
+        <div class="input-group">
+
+            <label for="number2">
+                Number 2
+            </label>
+
+            <input
+                type="number"
+                id="number2"
+                placeholder="Enter second number"
+            >
+
+        </div>
+
+
+        <!-- Operators -->
+        <div class="operators">
+
+            <button
+                class="operator"
+                data-operation="+">
+                +
+            </button>
+
+            <button
+                class="operator"
+                data-operation="-">
+                −
+            </button>
+
+            <button
+                class="operator"
+                data-operation="*">
+                ×
+            </button>
+
+            <button
+                class="operator"
+                data-operation="/">
+                ÷
+            </button>
+
+        </div>
+
+
+        <!-- Equals -->
+        <button id="equals">
+            =
+        </button>
+
+
+        <!-- Reset -->
+        <button id="reset">
+            RESET
+        </button>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
